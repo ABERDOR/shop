@@ -1,0 +1,40 @@
+*{padding:0px;margin: 0px;font-size: 24px;}
+body{background: rgb(226,240,217)}
+ul{list-style-type:'';}
+a{text-decoration: none;}
+button:hover{cursor: pointer;}
+.ad_left{position: fixed;left: 0px;top: 25%;width: 100px;height: 300px;}
+.ad_right{position: fixed;right: 0px;top: 25%;width: 100px;height: 300px;}
+.head{position: fixed;background:rgb(112,173,71) ;width:100%;display: flex;justify-content: space-between;}
+.menu{height: 75px;padding: 10px;}
+.search{position: relative;width: 800px;height: 40px;margin: 10px;border-radius: 5px;font-size: 20px; padding: 5px}
+.login{height: 50px;text-align: center ;margin: auto;border-radius: 10px;box-shadow: 1px 1px;}
+.login:hover{cursor: pointer;}
+/*.search:hover{border:red;}*/
+.cho{position: relative;padding:0px 5px 5px;}
+.cho span{margin: 0px 5px;}
+.cho a:hover{color: rgb(90,112,90);text-decoration: underline;}
+.cho a:link{color: rgb(180,224,180)}
+.cho a:visited{color: rgb(90,112,90)}
+.main{padding-top: 105px;}
+.list{padding:0px ;margin: 0px;background-color: rgb(197,224,180);font-size: 0px;    list-style-type: disc;}
+.list li{display: inline-block;padding: 0px;margin: 0px ;}
+ul li a{font-size: 32px;color: white;text-decoration: none;background-color: rgb(95,112,90);color: rgb(100,256,140);padding: 0px 10px;margin: 0px;transition: 0.5s}
+ul li a:hover{background-color: rgb(47,61,45);cursor: pointer;}
+.allcom{display: flex;flex-wrap: wrap;justify-content: center;align-content: space-between;}
+.com{padding: 10px;box-shadow: 1px 1px 1px;margin: 5px;background: white;outline: darkred;}
+.com img{width: 200px;height: 140px}
+.com:hover{cursor: pointer;outline-style: solid;}
+.com div{align-content: center; color: red;}
+.com span{font-size: 16px}
+.foot{background:lightgreen ;width:100%;display: flex;justify-content: space-between;height: 200px;}
+.foottext{text-align: center;margin: auto}
+.shop{display: flex;margin:30px}
+.goodspic{width: 40%;height: 60%;margin: 10px;}
+.goodsname{margin: 10px;}
+.pricebox{height: 60px;width: 500px;background: lightgray;display: flex;justify-content: left;align-items: center;}
+.price{color: red;font-size: 32px;padding: 15px;}
+.dj{color: white;background-color: red;border-radius: 5px;font-size: 20px;height: 30px;padding: 5px;}
+.sit{border-radius: 5px;}
+.add{margin: 15px;padding: 15px;border-radius: 5px;color: red;}
+.buy{margin: 15px;padding: 15px;background-color: red;color: white;border-radius: 5px;}
